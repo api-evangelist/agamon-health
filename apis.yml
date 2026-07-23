@@ -1,7 +1,31 @@
 aid: agamon-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agamon-health.png
 name: Agamon Health
-description: Agamon Health is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Agamon Health is a healthcare AI company that improves imaging patient
+  workflow management through automation across the continuum of care. Its
+  Coordinate platform uses proprietary deep-learning natural language
+  processing (NLP) models, trained on tens of millions of radiology reports,
+  to automatically extract actionable findings from signed radiology reports,
+  determine whether follow-up is needed, and capture modality, body part, and
+  timeframe so radiology teams can automate patient communications, personalize
+  outreach, and track follow-up adherence. Founded in 2018 and headquartered in
+  New York City, Agamon has helped radiology teams increase productivity by up
+  to 30 percent. The company was surfaced as a Seedcamp portfolio company and
+  added to the API Evangelist network; it does not currently publish a public
+  developer API, so this profile captures company identity and domain security
+  rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/agamon-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +38,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Healthcare
+- Radiology
+- Medical Imaging
+- Artificial Intelligence
+- Machine Learning
+- Natural Language Processing
+- Clinical Workflow
+- Health Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://agamonhealth.com
+  url: https://agamonhealth.com
+- type: Support
+  url: https://agamonhealth.com/contact
+- type: Blog
+  url: https://resources.agamonhealth.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/agamonhealth
+- type: DomainSecurity
+  url: security/agamon-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
