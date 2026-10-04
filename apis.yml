@@ -53,7 +53,7 @@ tags:
 - Radiology
 - Medical Imaging
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - Clinical Workflow
 - Health Tech
@@ -67,6 +67,7 @@ tags_raw:
 - Natural Language Processing
 - Clinical Workflow
 - Health Tech
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
